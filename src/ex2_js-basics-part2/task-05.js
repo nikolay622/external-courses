@@ -1,4 +1,4 @@
-function arrayMax(array) {
+function getMaxValue(array) {
   let max = array[0];
 
   for (let i = 1; i < array.length; i += 1) {
@@ -10,4 +10,4 @@ function arrayMax(array) {
   return max;
 }
 
-module.exports = arrayMax;
+module.exports = getMaxValue;
