@@ -1,5 +1,4 @@
-function objectСheck(string, object) {
-    return object.hasOwnProperty(string);
-  }
-  
-  module.exports = objectСheck;
+function objectСheck(argumentstring, object) {
+  return object.hasOwnProperty(argumentstring);
+}
+module.exports = objectСheck;

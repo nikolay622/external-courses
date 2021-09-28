@@ -1,10 +1,11 @@
 function checkingCreatingObject(string, object) {
-    const newObject = object;
-  
-    if (!newObject.hasOwnProperty(string)) {
-      newObject[string] = 'new';
-    }
-    return newObject;
+  const newObject = object;
+
+  if (!newObject.hasOwnProperty(string)) {
+    newObject[string] = 'new';
   }
-  
-  module.exports = checkingCreatingObject;
+
+  return newObject;
+}
+
+module.exports = checkingCreatingObject;
