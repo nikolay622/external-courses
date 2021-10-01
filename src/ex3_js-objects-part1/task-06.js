@@ -16,6 +16,7 @@ function deepClone(object) {
       }
     }
   }
+
   return result;
 }
 
