@@ -12,6 +12,7 @@ function slice(array, begin = 0, end = array.length) {
   for (let i = start; i < stop; i += 1) {
     arr.push(array[i]);
   }
+
   return arr.filter(Boolean);
 }
 
