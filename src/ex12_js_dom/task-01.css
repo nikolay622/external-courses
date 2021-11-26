@@ -1,0 +1,17 @@
+.slider__overlay {
+    overflow: hidden;
+}
+
+.slider__content {
+    white-space: nowrap;
+    transition: all 0.5s;
+}
+
+img {
+    width: 100%;
+}
+
+.slider__item {
+    display: inline-block;
+    vertical-align: middle;
+}
