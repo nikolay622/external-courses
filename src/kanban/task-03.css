@@ -44,8 +44,10 @@ body {
     transition: all 250ms;
 }
 
-.section {
+.main {
+    display: flex;
     flex: 1;
+    background: #0079bf
 }
 
 
@@ -73,9 +75,12 @@ body {
 
 .header__section {
     display: flex;
+    align-items: flex-start;
 }
 
 .menu__button {
+    display: flex;
+    align-items: center;
     background-color: #0067a3;
     border: 0;
     text-transform: uppercase;
@@ -83,12 +88,8 @@ body {
     letter-spacing: 0.1em;
     cursor: pointer;
     transition: all 250ms;
-    padding-left: 45px;
 }
 
-.menu__button:active {
-    transform: scale(0.9);
-}
 
 .footer {
     background-color: #0067a3;
@@ -109,4 +110,127 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+}
+
+.menu__button_avatar {
+    position: absolute;
+    top: 4px;
+}
+
+.menu__button_vector {
+    margin-left: 5px;
+
+}
+
+.context-menu {
+    position: absolute;
+    background: #EBECF0;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.context-menu__item {
+    padding: 3px 0;
+}
+
+.context-menu__link {
+    display: block;
+    width: 80px;
+    text-decoration: none;
+    color: black;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.context-menu__link:hover {
+    background: grey;
+}
+
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.main__table {
+    background: #EBECF0;
+    border-radius: 5px;
+}
+
+.board {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.board_button {
+    border: 0;
+    color: #5E6C84;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.board_button:disabled {
+    opacity: 0.25;
+}
+
+.board__title {
+    margin-left: 12px;
+}
+
+.board__column {
+    width: 300px;
+    background: #EBECF0;
+    border-radius: 10px;
+    display: table;
+    margin-top: 20px;
+}
+
+.board__task {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    cursor: crosshair;
+}
+
+.board__items {
+    margin: 0 8px;
+}
+
+.board__field {
+    display: none;
+}
+
+.button__field {
+    display: none;
+}
+
+.board__field.active {
+    display: block;
+    margin-left: 12px;
+}
+
+.board__menu {
+    position: absolute;
+}
+
+.board__menu-button {
+    margin: 1px;
+    border: 0;
+    cursor: pointer;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.board__menu-button:hover {
+    opacity: 0.9;
 }
