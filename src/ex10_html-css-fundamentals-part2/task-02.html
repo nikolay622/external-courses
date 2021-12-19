@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Nikolay" />
+    <title>Document</title>
+    <link href="task-02.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form action="http://httpbin.org/post" metod="POST">
+      <fieldset>
+        <legend>Personal data</legend>
+        <label>Surname</label>
+        <input type="text" />
+        <br />
+        <br />
+        <label>First Name</label>
+        <input type="text" />
+        <br />
+        <br />
+        <label>Middle name</label>
+        <input type="text" />
+        <br />
+        <br />
+        <label>You are</label>
+        <input type="radio" /> male <input type="radio" /> female
+        <br />
+        <br />
+        <label>Age</label>
+        <input type="number" min="18" max="101" />
+        <br />
+        <br />
+        <label>Country of Residence</label>
+        <select style="width: 70px"></select>
+        <br />
+        <br />
+        <label>You are</label>
+        <input type="checkbox" /> Ryazan <input type="checkbox" /> Moscow
+        <br />
+        <br />
+        <label>Photography</label>
+        <input type="file" />
+        <hr />
+        <br />
+        <br />
+        <label>Title</label>
+        <select size="8" multiple>
+          <optgroup label="Tehnologies">
+            <option>Web Master</option>
+            <option>Database Administrator</option>
+            <option>Coputer-aided design</option>
+          </optgroup>
+          <optgroup label="Finance">
+            <option>Economic Planning</option>
+            <option>Management accounting</option>
+            <option>Budgeting and planning</option>
+          </optgroup>
+        </select>
+        <br />
+        <br />
+        <label>Salary</label>
+        <input type="range" />
+        <br />
+        <br />
+        <textarea rows="8" cols="45">tell us about yourself...</textarea>
+      </fieldset>
+      <fieldset action="http://httpbin.org/post" metod="POST">
+        <legend>Contact Information</legend>
+        <br />
+        <br />
+        <label>Site</label>
+        <input type="url" />
+        <br />
+        <br />
+        <label>Email</label>
+        <input type="email" />
+        <br />
+        <br />
+        <label>Phone</label>
+        <input type="tel" />
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <br />
+      <label>Password</label>
+      <input type="password" />
+      <br />
+      <br />
+      <button type="submit">Отправить</button>
+      <button type="reset">Сбросить</button>
+    </form>
+  </body>
+</html>
