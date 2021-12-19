@@ -71,5 +71,5 @@ function createSlider(element, images) {
 createSlider(document.querySelector('.my-js-slider'), [
   'https://placeimg.com/640/480/any',
   'https://placeimg.com/640/280/cars',
-  'https://placeimg.com/640/480/people',
+  'https://placeimg.com/640/280/people',
 ]);
