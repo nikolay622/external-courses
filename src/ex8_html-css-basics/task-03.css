@@ -1,0 +1,16 @@
+.frame1 {
+    border: 10px solid black;
+    padding: 50px;
+}
+
+.frame2 {
+    border: 8px double rgb(204, 0, 0);
+    background: rgb(2, 63, 43);
+    padding: 10px;
+}
+
+.frame3 {
+    border-style: double;
+    border-width: 3px 7px 7px 4px;
+    padding: 7px;
+}
